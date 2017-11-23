@@ -1,0 +1,98 @@
+.detail{
+	width: 1200px;
+	height: 480px;
+	background: white;
+	margin: 0 auto;
+}
+.detail img{
+	float: left;
+	margin: 25px;
+	margin-right: 0;
+}
+.txt{
+	float: left;
+	width: 500px;
+	height: 433px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.txt p{
+	color: #FF4500;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.txt .title{
+	color: black;
+	font-size: 16px;
+	
+}
+.price{
+	color: #8B0000;
+	display: block;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.add-cart{
+	width: 150px;
+	height: 50px;
+	background: #FF4500;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+p{
+	overflow: hidden;
+}
+b{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+}
+button{
+	float: left;
+	width: 35px;
+	height: 35px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+.num{
+	float: left;
+	width: 50px;
+	height: 31px;
+	font-size: 20px;
+}
+#boxTxt{
+	width: 500px;
+	height: 300px;
+	background: rgba(33,212,19,.8);
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	display: none;
+}
+#boxTxt h2{
+	font-size: 50px;
+	color: #B22222;
+	font-weight: bold;
+	width: 100%;
+	line-height: 200px;
+	text-align: center;
+}
+#boxTxt span{
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	background: #EA993C;
+	margin: 0 45px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}

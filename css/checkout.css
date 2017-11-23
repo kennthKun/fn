@@ -1,0 +1,164 @@
+html,body{
+    height: 100%;
+}
+.titile{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin: 30px 0 0 30px;
+	font-size: 50px;
+}
+.nouse{
+	float: right;
+}
+.collateSite{
+    width: 1000px;
+    height: auto;
+    padding: 0px 20px;
+    border: 1px solid gainsboro;
+    margin:  20px auto;
+}
+.collateSite div{
+    width: 1000px;
+    height: auto;
+    margin: 20px 0;
+    border-bottom: 1px solid gainsboro;
+}
+.collateSite span{
+    float: left;
+    font-weight: bold;
+}
+.information h1 .site{
+    float: right;
+    color: #005ea7;
+    font-weight: normal;
+    cursor: pointer;
+}
+.new-site{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.15);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.dialog{
+    width: 690px;
+    height: 500px;
+    padding: 2px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    border: 4px solid rgba(0,0,0,.1);
+}
+.dialog h2{
+    width: 670px;
+    height: 31px;
+    padding: 0 10px;
+    line-height: 31px;
+    background: #f3f3f3;
+}
+.dialog h2 span{
+    float: right;
+    width: 13px;
+    height: 13px;
+    background: url(../images/cha.png) no-repeat;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.dialog form{
+    width: 670px;
+    height: 469px;
+    background: white;
+    padding: 0 10px;
+    
+}
+.dialog form div{
+    padding-top: 15px;
+}
+.dialog form div e{
+    color: #e4393c;
+    margin: 0 5px;
+}
+.oInput{
+    width: 300px;
+    height: 30px;
+}
+.info{
+    display: inline-block;
+}
+.course{
+    float: right;
+}
+.titi{
+    float: left;
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+h1{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+#displayInformation{
+    width: auto;
+    background: antiquewhite;
+    height: 30px;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+#displayInformation b{
+    float: right;
+}
+.money{
+    width: 1000px;
+    height: 50px;
+    margin: 10px auto;
+    padding: 0px 0 0 40px;
+    border: 1px solid gainsboro;
+}
+.money span{
+    float: right;
+    
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+#order{
+    width: 100px;
+    height: 50px;
+    background: #D7000F;
+    color: white;
+    margin-left: 20px;
+}
+#total{
+    width: 150px;
+    height: 50px;
+}
+#paymentMethod{
+    width: 100%;
+    height: auto;
+}
+#paymentMethod .payment{
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+#paymentMethod .payment span{
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+#paymentMethod .payment span:hover{
+    border-color: #D7000F;
+    font-size: 20px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="css/checkout.css"/>
+    </head>
+    <body>
+        <header>
+					<div class="top-nav">
+						<div class="top-nav-conter">
+							<ul class="top-nav-left">
+								<li id="login"><a  href="login.html">Hi,请登录</a></li>
+								<li id="signin"><a class="noimg"  href="register.html">免费注册</a>|</li>
+								<li><a>送货至：<i></i></a></li>
+							</ul>
+							<ul class="top-nav-right">
+								<li><a href="">我的飞牛<img class="arrows" src="images/smal/arrows.jpg"/></a>|</li>
+								<li><a class="noimg" href="order.html">我的订单</a>|</li>
+								<li><a class="noimg" href="">卡券充值</a>|</li>
+								<li><a href="">手机飞牛网<img class="arrows" src="images/smal/arrows.jpg"/></a>|</li>
+								<li><a class="noimg" href="">积分商城</a>|</li>
+								<li><a href="">客户服务<img class="arrows" src="images/smal/arrows.jpg"/></a>|</li>
+								<li><a class="noimg" href="">关注我们</a></li>
+							</ul>
+						</div>
+					</div>
+					<!--搜索框、logo等-->
+					<div class="logo-box">
+						<a class="logo" href="index.html"></a>
+						<img class="logo-right" src="images/headimg.gif"/>
+						<div class="titile">
+							订单页面
+						</div>
+						<img class="nouse" src="images/c.png"/>
+					</div>
+				</header>
+        <div class="collateSite">
+            <div class="information" id="goodsReceivingInformation">
+                <h1><span>收货人信息</span><span class="site" id="addUserAddress">新增收货地址</span></h1>
+                <div id="side"></div>
+            </div>
+            <div id="paymentMethod">
+                <h1><span>支付方式</span></h1>
+                <div class="payment">
+                    <span class="btn">银行卡支付</span>
+                    <span class="btn">微信支付</span>
+                </div>
+            </div>
+        </div>
+        <div class="new-site" id="newSiteBox">
+          <div class="dialog">
+            <h2>新增收货人信息<span></span></h2>
+            <form>
+                <div>
+                	<e>*</e>所在地区：
+                	<p class="info">
+                   <select id="s_province" name="province"></select>  
+                   <select id="s_city" name="city" ></select>  
+                   <select id="s_county" name="district"></select>
+                </p>
+                </div>
+                <div><e>*</e>收货人：<input type="text" name="address_name" value="关老师"></div>
+                <div><e>*</e>详细地址：<input class="oInput" type="text" name="address" value=""></div>
+                <div><e>*</e>手机号码：<input class="oInput" type="text" name="mobile" value=""></div>
+                <div>固定电话：<input class="oInput" type="text" name="fixed" value=""></div>
+                <div><input type="button" id="add" name="" value="保存收货人信息"></div>
+     			  </form>
+          </div>
+         </div>
+         <div id="money" class="money">
+		    		<span id="order"><a href="order.html">下订单</a></span>
+		    		<span id="total">总计：</span>
+         </div>
+    </body>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/comment.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/area.js"></script>
+  <script type="text/javascript">
+    _init_area();
+    var Gid  = document.getElementById ;
+    var showArea = function(){
+      Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" + 	
+      Gid('s_city').value + " - 县/区" + 
+      Gid('s_county').value + "</h3>"
+    }
+  </script>
+  <script src="js/checkout.js" type="text/javascript" charset="utf-8"></script>
+</html>

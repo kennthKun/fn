@@ -1,0 +1,119 @@
+.box{
+    width: 1200px;
+    height: 32px;
+    padding: 5px 1px;
+    margin: 10px 0px;
+    margin: 20px auto;
+    background: #f3f3f3;
+}
+.box p{
+    float: left;
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 0 0 11px;
+    vertical-align:middle
+}
+.box p input{
+    float: left;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+.box span{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 0 0 11px;
+    
+}
+table{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.sele{
+    margin-left: 11px;
+}
+tr{
+    border-bottom: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    margin-top: 20px;
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+.commodity img{
+    float: left;
+    margin: 10px;
+}
+.commodity span{
+    float: left;
+    margin: 10px;
+}
+.operate{
+    float: left;
+    width: 25px;
+    background: none;
+    border: 1px solid gainsboro;
+    height: 25px;
+}
+.goods_number{
+    float: left;
+    width: 35px;
+    height: 23px;
+    text-align: center;
+    border: none;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+.goods_price{
+    text-align: center;
+}
+.but-box{
+    width: 1200px;
+    height: 50px;
+    margin: 20px auto;
+    border: 1px solid gainsboro;
+}
+.but-box p{
+    float: left;
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+}
+.but-box p input{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.but-box span{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+}
+.but-box .osp{
+    float: right;
+    width: 100px;
+    height: 50px;
+    background: #D7000F;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+}
+.but-box i{
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    color: #D7000F;
+    font-weight: bold;
+}
+.but-box i b{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+}

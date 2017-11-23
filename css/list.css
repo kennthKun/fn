@@ -1,0 +1,114 @@
+.top{
+	width: 100%;
+	height: 60px;
+	background: #b31d02;
+}
+.headimg{
+	width: 1190px;
+	margin: 0 auto;
+	position: relative;
+}
+.top-img{
+	display: block;
+	position: absolute;
+}
+
+/*shop*/
+#shop{
+	width: 1190px;
+	height: 1250px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+#shop li{
+	float: left;
+	width: 216px;
+	height: 300px;
+	padding: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid gainsboro;
+}
+#shop li img{
+	width: 216px;
+	height: 216px;
+}
+#shop li p{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+	
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#shop li em{
+	display: block;
+	width: 100%;
+	height: 30px;
+	color: #8B0000;
+
+	line-height: 30px;
+	
+}
+/*分页*/
+.button{
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#ButtonPrev{
+    color: black;
+    display: inline-block;
+    float: left;
+    width: 140px;
+    height: 30px;
+    border:1px solid gainsboro;
+    background-color: #dddddd;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+}
+#ButtonNext{
+    color: black;
+    display: inline-block;
+    float: right;
+    width: 140px;
+    height: 30px;
+    border:1px solid gainsboro;
+    background-color: #dddddd;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+}
+.button-center{
+    float: left;
+    overflow: hidden;
+    width:905px;
+    height: 30px;
+}
+#ButtonCenter{
+    float: left;
+    width: 4000px;
+    height:30px;
+    margin-left: 0;
+}
+#ButtonCenter span{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border:1px solid #666666;
+    background-color: #dddddd;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+#ButtonCenter span.button-center-span{
+    background: firebrick;
+}
